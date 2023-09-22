@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+.top-header{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f4f7ff;
+    display: flex;
+    height: 55px;
+    justify-content:space-between ;
+    align-items: center;
+    padding: 0 50px;}
+.top-header-left{
+    display: flex;
+}
+.top-header-right{
+    display: flex;
+}
+.time, .social-links{
+    margin-left: 20px;
+}
+.address, .time, .contact{
+font-size: 14px;
+color:#6e6969;
+}
+.social-links a{
+    padding: 0 5px;
+    transition: 0.3s linear;
+}
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+	background-color:white;
+    }
+.logo {
+    font-size: larger;
+    }
+.logo h1{
+    padding-left: 50px;
+    color:#AB7442;
+}
+.nav-link ul {
+    display: flex;
+    list-style: none;
+}
+.nav-link ul li {
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.nav-link ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s linear;
+    color:black;
+    }
+.nav-link ul li a:hover{
+color: #AB7442;
+}
+button{
+    
+	background-color:#AB7442;
+    color: white;
+    padding: 11px 25px;
+    font-size: 18px;
+    margin-right:40px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.5s linear;}
+button:hover{
+    background-color: coral;
+    color:aliceblue;
+}
+button i{
+	margin-left: 8px;
+}
+/* hero section */
+.hero{
+    background-image: linear-gradient(0deg, rgba(53,53,53,.7), rgba(53,53,53,.7)),url(/manarola-3966x2464-11845.jpg);
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+
+
+}
+.hero-btn{
+    
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px;
+}
+.hero-btn a{
+    color: white;
+
+}
+.btn2 a{
+    color: black;
+}
+
+
+.btn1{
+    background-color: #AB7442;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.btn2{
+    background-color: #eeeeee;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+/* container  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	text-decoration: none;
+}
+
+.container{
+    height: 250px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding:0px 70px 0 0;
+    }
+.box{
+    height: 300px;
+    width: 300px;
+    margin-left: 30px;
+    transition: 0.2s linear;
+    border-radius: 5px;
+}
+.content{
+
+    font-family: 'Roboto', sans-serif;
+}
+.content h5{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color:#353535;
+    padding-left: 25px;
+    filter:drop-shadow(3px 3px 2px rgba(255,255,255,0.3));
+}
+.number{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 23px;
+
+}
+.number h1{
+color:#f4f7ff;
+font-size:60px;
+margin-top: 50px;
+padding-left:50px;
+transition: 0.2s linear;
+}
+.icon{
+    background-color: #f5f5f5;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 0 30px;
+    border-radius: 5px;
+    transition: 0.2s linear;
+    }
+.icon i{
+    color:#AB7442;
+    font-size:40px;
+    font-weight: 900;
+    margin:0 0 0 8px;
+   }
